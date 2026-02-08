@@ -14,7 +14,6 @@ def main():
 
     print(f"{name}, Welcome to the CSS course!")
     print(f"Hello, I'm {name}, and I am a sophomore from eastern Massachusetts. I enjoy 3d printing parts of and assembling toys for my cat, and I hope this course will give me ideas on how to better my inventions and integrate computation into them.")
-    print("That was my introduction.")
 
 
 if __name__ == "__main__":
