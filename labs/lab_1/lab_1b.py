@@ -61,7 +61,7 @@ def main():
     print(f"===== Simple Calculator =====")
 
     # Ask the user for sample input    
-     num1 = request_sanitized_number("Enter the first number: ")
+    num1 = request_sanitized_number("Enter the first number: ")
     num2 = request_sanitized_number("Enter the second number: ")
     operation = request_sanitized_operation("Enter the operation (add, subtract, multiply, divide): ")
 
