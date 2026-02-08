@@ -9,7 +9,6 @@ and prints the result to the terminal window.
 
 """
 
-
 def request_sanitized_number(prompt: str) -> float:
     while True:
         try:
