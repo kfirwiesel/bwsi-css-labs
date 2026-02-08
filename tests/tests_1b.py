@@ -24,6 +24,7 @@ def test_multiplication():
     assert simple_calculator("multiply", -2, 2) == -4   # Test for negative and positive number
     assert simple_calculator("multiply", 0, 100) == 0   # Test for multiplication by zero
     assert simple_calculator("multiply", 15, 25) == 375 # Test for large numbers
+    assert simple_calculator("mutiply", 30, -10) == -30 # Test for large negative numbers
 
 def test_division():
     assert simple_calculator("divide", 6, 3) == 2       # Test for positive numbers
